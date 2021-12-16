@@ -1,10 +1,11 @@
 import React from 'react'
+import DefaultLayout from '../layout/defaultLayout'
 
 function HomeScreen() {
     return (
-        <div>
+        <DefaultLayout>
             
-        </div>
+        </DefaultLayout>
     )
 }
 

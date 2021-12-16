@@ -70,7 +70,7 @@ export function signInEmailAndPassword(email, password) {
 }
 
 export function signOutUser() {
-  signOut()
+  signOut(auth)
     .then(() => {
       // Signed in
 

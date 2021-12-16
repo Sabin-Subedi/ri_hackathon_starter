@@ -1,11 +1,16 @@
-import React from 'react'
+import { Layout } from "antd";
+import { Header } from "antd/lib/layout/layout";
+import React from "react";
+import Navbar from "../components/Navbar";
 
-function DefaultLayout() {
-    return (
-        <div>
-            
-        </div>
-    )
+function DefaultLayout({ children }) {
+  return (
+    <Layout>
+      <Navbar />
+
+      {children}
+    </Layout>
+  );
 }
 
-export default DefaultLayout
+export default DefaultLayout;

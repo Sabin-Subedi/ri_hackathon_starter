@@ -148,7 +148,7 @@ function SignInScreen() {
 
                 <Link to="/signup">
                   <p className="text-center text-blue-600 hover:underline hover:text-indigo-800">
-                    Sign up for an accoun
+                    Sign up for an account
                   </p>
                 </Link>
               </div>

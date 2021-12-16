@@ -1,1 +1,9 @@
-@import '~antd/dist/antd.css';
+@import "~antd/dist/antd.css";
+
+input[theme="dark"] {
+  color: #fff;
+}
+
+.ant-input-affix-wrapper-dark .ant-input-clear-icon {
+  color: rgb(148 163 184);
+}
